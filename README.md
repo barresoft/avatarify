@@ -78,6 +78,7 @@ Linux uses `v4l2loopback` to create virtual camera.
 1. Download [Miniconda Python 3.7](https://docs.conda.io/en/latest/miniconda.html#linux-installers) and install using command:
 ```bash
 bash Miniconda3-latest-Linux-x86_64.sh
+export PATH=~/miniconda3/bin:$PATH
 ```
 2. Clone `avatarify` and install its dependencies (sudo privelege is required):
 ```bash
